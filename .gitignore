@@ -1,0 +1,39 @@
+# ########################
+# ## Node.js / npm / yarn
+# ########################
+
+# 自動生成される依存関係のフォルダ
+# このフォルダはサイズが大きく、`npm install`で再生成されるためリポジトリに含めません。
+/node_modules
+
+# npmやyarnが生成するログファイル
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# npmのパッケージロックファイル (バージョンによってファイル名が異なる場合)
+# package-lock.jsonは通常コミットしますが、環境によっては除外する場合もあります。
+# 今回は含めないようにコメントアウトしておきます。
+# package-lock.json
+# yarn.lock
+
+# ########################
+# ## OS / Editor Files
+# ########################
+
+# macOS固有のシステムファイル
+.DS_Store
+
+# Windows固有のシステムファイル
+Thumbs.db
+
+# VS Codeエディタの設定フォルダ
+.vscode/
+
+# JetBrains IDEs (WebStormなど) の設定フォルダ
+.idea/
+
+# その他の一時ファイルやログファイル
+*.log
+*.tmp
