@@ -4,8 +4,6 @@
 
 GitHub PagesのようなHTTPSで配信されるサイトからでも、混合コンテンツブロック（Mixed Content Block）を回避してローカルのPCに接続できます。
 
-![アプリケーションのスクリーンショット](https://storage.googleapis.com/gemini-prod/images/2024/07/03/f30554c1-4044-42f0-9774-32906b38c230.png)
-
 ## ✨ 主な機能
 
 - **セキュアな接続**: WSS (Secure WebSocket) に対応し、HTTPSページからの接続を可能にします。
