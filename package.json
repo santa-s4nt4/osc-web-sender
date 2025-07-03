@@ -1,0 +1,18 @@
+{
+  "name": "osc-web-sender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "node-osc": "^9.1.7",
+    "ws": "^8.18.3"
+  }
+}
